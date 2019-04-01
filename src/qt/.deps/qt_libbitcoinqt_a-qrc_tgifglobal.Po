@@ -1,0 +1,4 @@
+qt/qt_libbitcoinqt_a-qrc_tgifglobal.o: qt/qrc_tgifglobal.cpp \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

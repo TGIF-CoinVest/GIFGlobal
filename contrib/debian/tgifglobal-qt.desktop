@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=TGIFGLOBAL
+Comment=TGIFGLOBAL P2P Cryptocurrency
+Comment[fr]=TGIFGLOBAL, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=TGIFGLOBAL, eşten eşe kriptografik sanal para birimi
+Exec=tgifglobal-qt %u
+Terminal=false
+Type=Application
+Icon=tgifglobal128
+MimeType=x-scheme-handler/tgifglobal;
+Categories=Office;Finance;

@@ -1,0 +1,26 @@
+# /etc/conf.d/tgifglobald: config file for /etc/init.d/tgifglobald
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/tgifglobal/tgifglobal.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/tgifglobald"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/tgifglobald.pid"
+
+# Where to write tgifglobald data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/tgifglobald"
+
+# User and group to own tgifglobald process
+#BITCOIND_USER="tgifglobal"
+#BITCOIND_GROUP="tgifglobal"
+
+# Path to tgifglobald executable
+#BITCOIND_BIN="/usr/bin/tgifglobald"
+
+# Nice value to run tgifglobald under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
